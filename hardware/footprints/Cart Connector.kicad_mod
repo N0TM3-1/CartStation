@@ -1,0 +1,114 @@
+(footprint "Cart Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8fed4969-d7a7-43a4-8154-a19e9dc2981d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Cart Connector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b10b3af5-530b-437c-ad42-5adedc1fac69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20a49aab-bc99-4570-b517-37387386a055")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59867e8b-7699-44eb-9e4d-2ea7677a7aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -31.68 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "69eee1c6-6ffc-445a-ac9f-f70e85dd939a")
+	)
+	(pad "2" connect rect
+		(at -23.76 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8cbc8087-bc49-46d6-861a-724fcdd2b559")
+	)
+	(pad "3" connect rect
+		(at -15.84 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7bb67860-5158-4590-9c6e-4e832099e7d7")
+	)
+	(pad "4" connect rect
+		(at -7.92 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8690787a-a746-44d8-a97b-aad4a3560e8d")
+	)
+	(pad "5" connect rect
+		(at 0 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0e124a6c-36c1-4f90-8f25-6fddc1966829")
+	)
+	(pad "6" connect rect
+		(at 7.92 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0c293280-a5bb-46f0-ad28-0ff6ba9f1e31")
+	)
+	(pad "7" connect rect
+		(at 15.84 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0d9730f6-a137-40c9-a7b0-cae6268f399a")
+	)
+	(pad "8" connect rect
+		(at 23.76 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ce9b5e52-8f6c-4277-af3d-d446018bb00f")
+	)
+	(pad "9" connect rect
+		(at 31.68 -3.96)
+		(size 2.5 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3862125b-ceaf-4aa5-94df-04901ff14ca4")
+	)
+	(embedded_fonts no)
+)
