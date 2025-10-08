@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Console (name TBA)**.  
+This is my journal of the design and building process of **CartStation**.  
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/245).
 
 
@@ -15,5 +15,11 @@ You can view this journal in more detail on **Hack Club Blueprint** [here](https
 I set up the GitHub repo as well as creating the KiCad project and finding and importing a footprint for the Raspberry Pi Zero 2 W, which I'm planning to use as the 'Brains' of the console. I also started searching for datasheets for the [**SST25VF512A** SPI Flash Chip](https://www.microchip.com/en-us/product/sst25vf512a), which I'm planning to use as the memory for the game cartridge, but decided not to include it in this journal log since it doesn't *really* fit in the 'Setting up the project' category.
 Since there's not an image I can put that shows the project being set up, I'm just gonna put a screenshot of the RPi footprint.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzgwLCJwdXIiOiJibG9iX2lkIn19--b4e9bec62d7ebfb5c1e75326268767d173dedfb1/image.png)
+  
+
+## 10/8/2025 - Created Chip and Connector Footprints  
+
+I created footprints and symbols for the **SPI Flash chip** as well as the connectors for the cartridge and the console. Took a while to find the dimensions I need to use, but I did it in the end. Took a bit longer than I'd imagined because I made them with the wrong dimensions at first so I had to redo them again. KiCad also played a role in this, because, for some reason, it wouldn't use settings I set up for the pads, so I had to manually change each one of them. But I did it in the end and I'm now ready to start working on the schematic itself. I'm planning to write a bit of documentation to figure out exactly what I want this console to be and what components I want to use, but that shouldn't take long.
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--d9325623e167e0c636e19a8309997258bf9bdd22/image.png)
   
 
